@@ -61,7 +61,8 @@ exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'R
 
 # Markdown
 markdown: kramdown
-highlighter: rouge
+permalink: pretty 
+highlighter: pygments
 kramdown:
   input: GFM
 
@@ -70,7 +71,7 @@ RSS: false
 
 # Permalink
 # See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
-permalink: /:year/:month/:day/:title.html
+#permalink: /:year/:month/:day/:title.html
 
 # Plugins
 plugins: [jekyll-paginate]
