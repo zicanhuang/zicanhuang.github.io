@@ -8,8 +8,8 @@ url: 'https://zicanhuang.github.io/' # your host
 baseurl: 
 
 # Navigation links
-#nav:
-#  home: '/'
+nav:
+  home: '/'
 #  tags: '/tags.html'
 
 # Footer
