@@ -10,11 +10,11 @@ baseurl:
 # Navigation links
 nav:
   home: '/'
-  tags: '/tags.html'
+#  tags: '/tags.html'
 
 # Footer
 footer:
-  since: 2017
+  since: 2018
 
 # Author 配置博主信息
 author: '黄梓灿'
@@ -61,7 +61,7 @@ exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'R
 
 # Markdown
 markdown: kramdown
-permalink: pretty 
+#permalink: pretty 
 highlighter: pygments
 kramdown:
   input: GFM
@@ -71,7 +71,7 @@ RSS: false
 
 # Permalink
 # See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
-#permalink: /:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title.html
 
 # Plugins
 plugins: [jekyll-paginate]
